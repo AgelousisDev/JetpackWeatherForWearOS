@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryLighter">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#1E88E5</color>
+    <color name="colorPrimaryContainer">@color/colorAccent</color>
+
+    <color name="whiteTwo">#F5F5F5</color>
+    <color name="dayNightTextOnBackground">#252525</color>
+    <color name="grey">#C3C3C3</color>
+    <color name="red">#E57373</color>
+    <color name="green">#31AD31</color>
+    <color name="orange">#fb8c00</color>
+    <color name="violet">#673ab7</color>
+    <color name="nativeBackgroundColor">#FFFFFF</color>
+    <color name="secondaryNativeBackgroundColor">#FFFFFF</color>
+    <color name="alphaNativeBackgroundColor">#EEFFFFFF</color>
+
+    <color name="fateBlue">#801E88E5</color>
+    <color name="blue">#1E88E5</color>
+
+    <color name="color_inactive">#408A8A8D</color>
+    <color name="steel">#8a8a8d</color>
+    <color name="lightRed">#fd907e</color>
+
+    <color name="lightBlue">#C6E0F9</color>
+    <color name="lightGreen">#C6F9DA</color>
+    <color name="lightSea">#D6DCF2</color>
+    <color name="lightYellow">#FFEAA0</color>
+    <color name="fadedRed">#CCfd907e</color>
+
+    <color name="yellowDarker">#FCE293</color>
+    <color name="yellowLighter">#FEEDBF</color>
+    <color name="petrolDarker">#46526D</color>
+    <color name="petrolLighter">#505A6E</color>
+
+    <color name="surfaceVariantColor">@color/dayNightTextOnBackground</color>
+    <color name="colorBackground">@color/dayNightTextOnBackground</color>
+    <color name="colorSecondary">@color/dayNightTextOnBackground</color>
+    <color name="colorSecondaryContainer">@color/dayNightTextOnBackground</color>
+    <color name="colorTertiary">@color/dayNightTextOnBackground</color>
+
+</resources>
