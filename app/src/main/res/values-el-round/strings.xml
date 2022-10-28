@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jetpack Weather for Wear OS</string>
+    <string name="key_ok_label">Εντάξει</string>
+    <string name="key_today_label">Σήμερα</string>
+    <string name="key_tomorrow_label">Αύριο</string>
+    <string name="key_next_days">Επόμενες Μέρες</string>
+    <string name="key_error_label">Σφάλμα</string>
+    <string name="key_search_places_label">Αναζήτηση τοποθεσιών</string>
+    <string name="key_location_label">Τοποθεσία</string>
+    <string name="key_feels_like_label">Αισθάνεται σαν %s</string>
+    <string name="key_weather_label">Καιρός</string>
+    <string name="key_settings_label">Ρυθμίσεις</string>
+    <string name="key_temperature_unit_label">Μονάδα θερμοκρασίας</string>
+    <string name="key_load_saved_weather_when_offline_label">Λειτουργία εκτός σύνδεσης</string>
+    <string-array name="key_temperature_unit_types_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string name="key_sun_and_moon_label">Ήλιος &amp; Φεγγάρι</string>
+    <string name="key_sunrise_label">Ανατολή ηλίου</string>
+    <string name="key_moonrise_label">Ανατολή Σελήνης</string>
+    <string name="key_sunset_label">Δύση του ηλιου</string>
+    <string name="key_moon_set_label">Δύση του φεγγαριού</string>
+    <string name="key_temperature_label">Θερμοκρασία</string>
+    <string name="key_wind_label">Άνεμος</string>
+    <string name="key_km_hourly_label">km/h</string>
+    <string-array name="key_wind_directions_array">
+        <item>Βορράς</item>
+        <item>Δύση</item>
+        <item>Νότος</item>
+        <item>Ανατολή</item>
+    </string-array>
+    <string name="key_now_with_value_label">Τώρα • Από %s</string>
+    <string-array name="key_wind_speed_warnings_array">
+        <item>Ελαφρός</item>
+        <item>Μέτριος</item>
+        <item>Ισχυρός</item>
+        <item>Καταιγίδα</item>
+        <item>Τυφώνας</item>
+        <item>Κυκλώνας</item>
+    </string-array>
+    <string name="key_uv_index_label">Δείκτης UV</string>
+    <string name="key_uv_index_value_label">%1$s • %2$d</string>
+    <string-array name="key_uv_index_levels_array">
+        <item>Χαμηλός</item>
+        <item>Μέτριος</item>
+        <item>Υψηλός</item>
+        <item>Πολύ ψηλός</item>
+        <item>Ακραίος</item>
+    </string-array>
+    <string name="key_humidity_label">Υγρασία</string>
+    <string name="key_value_with_percent_label">%d%%</string>
+    <string name="key_last_updated_with_date_label">Τελευταία ενημέρωση %s</string>
+    <string name="key_notifications_channel_name">Ειδοποιήσεις καιρού</string>
+    <string name="key_weather_notifications_label">Ειδοποιήσεις καιρού</string>
+    <string name="key_warning_label">Προσοχή</string>
+    <string name="key_location_permission_approval_message">Πρέπει να ενεργοποιήσετε την άδεια τοποθεσίας για να δείτε τις τρέχουσες πληροφορίες καιρού.</string>
+    <string name="key_update_location_label">Ενημέρωση τοποθεσίας</string>
+    <string name="key_alerts_label">Ειδοποιήσεις</string>
+    <string name="key_instructions_label">Οδηγίες</string>
+    <string name="key_more_label">Περισσότερα</string>
+    <string name="key_less_label">Λιγότερα</string>
+    <string name="key_effective_with_value_label">Ισχύς: %s</string>
+    <string name="key_expires_with_value_label">Λήγει: %s</string>
+    <string name="key_air_quality_label">Ποιότητα αέρα</string>
+    <string-array name="key_air_quality_data_array">
+        <item>Μονοξείδιο του άνθρακα (μg/m3)</item>
+        <item>Οζο (μg/m3)</item>
+        <item>Διοξείδιο του αζώτου (μg/m3)</item>
+        <item>Διοξείδιο του θείου (μg/m3)</item>
+    </string-array>
+    <string-array name="key_air_quality_us_epa_index_array">
+        <item>Καλή</item>
+        <item>Μέτρια</item>
+        <item>Ανθυγιεινή για ευαίσθητη ομάδα</item>
+        <item>Ανθυγιεινή</item>
+        <item>Πολύ Ανθυγιεινή</item>
+        <item>Επικίνδυνη</item>
+    </string-array>
+    <string name="key_invalid_location_message">Μη έγκυρη τοποθεσία</string>
+    <string name="key_loading_label">Φόρτωση…</string>
+    <string name="key_widget_preview_location_label">CA 94043, USA</string>
+    <string name="key_widget_preview_date_time_label">Τελευταία ενημέρωση Τρ, 20 Σεπ 2022 01:45</string>
+    <string name="key_widget_preview_temperature_label">20°C</string>
+    <string name="key_widget_preview_condition_label">Μερικώς συννεφιασμένος</string>
+    <string name="key_widget_preview_feels_like_temperature_label">Αισθάνεται σαν 19°C</string>
+    <string name="key_widget_preview_wind_speed_label">3</string>
+    <string name="key_widget_preview_kilometers_by_hour_label">km/h</string>
+    <string name="key_widget_preview_wind_state_label">Ελαφρός</string>
+    <string name="key_widget_preview_wind_direction_label">Τώρα • Από Βορρά</string>
+    <string name="key_update_label">Ανανέωση</string>
+    <string name="key_language_label">Γλώσσα</string>
+    <string-array name="key_languages_array">
+        <item>Αγγλικά</item>
+        <item>Ελληνικά</item>
+    </string-array>
+</resources>

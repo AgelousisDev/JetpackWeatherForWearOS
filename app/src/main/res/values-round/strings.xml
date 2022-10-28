@@ -1,3 +1,97 @@
 <resources>
-    <string name="hello_world">From the Round world,\nHello, %1$s!</string>
+    <string name="app_name">Jetpack Weather</string>
+    <string name="key_ok_label">OK</string>
+    <string name="key_today_label">Today</string>
+    <string name="key_tomorrow_label">Tomorrow</string>
+    <string name="key_next_days">Next Days</string>
+    <string name="key_error_label">Error</string>
+    <string name="key_search_places_label">Search places</string>
+    <string name="key_location_label">Location</string>
+    <string name="key_feels_like_label">Feels like %s</string>
+    <string name="key_weather_label">Weather</string>
+    <string name="key_settings_label">Settings</string>
+    <string name="key_temperature_unit_label">Temperature Unit</string>
+    <string name="key_load_saved_weather_when_offline_label">Load saved weather/Offline mode</string>
+    <string-array name="key_temperature_unit_types_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string name="key_sun_and_moon_label">Sun &amp; Moon</string>
+    <string name="key_sunrise_label">Sunrise</string>
+    <string name="key_moonrise_label">Moonrise</string>
+    <string name="key_sunset_label">Sunset</string>
+    <string name="key_moon_set_label">Moonset</string>
+    <string name="key_temperature_label">Temperature</string>
+    <string name="key_wind_label">Wind</string>
+    <string name="key_km_hourly_label">km/h</string>
+    <string-array name="key_wind_directions_array">
+        <item>North</item>
+        <item>West</item>
+        <item>South</item>
+        <item>East</item>
+    </string-array>
+    <string name="key_now_with_value_label">Now • From %s</string>
+    <string-array name="key_wind_speed_warnings_array">
+        <item>Light</item>
+        <item>Moderate</item>
+        <item>Strong</item>
+        <item>Storm</item>
+        <item>Hurricane</item>
+        <item>Cyclone</item>
+    </string-array>
+    <string name="key_uv_index_label">UV index</string>
+    <string name="key_uv_index_value_label">%1$s • %2$d</string>
+    <string-array name="key_uv_index_levels_array">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Very High	</item>
+        <item>Extreme</item>
+    </string-array>
+    <string name="key_humidity_label">Humidity</string>
+    <string name="key_value_with_percent_label">%d%%</string>
+    <string name="key_last_updated_with_date_label">Last Updated\n%s</string>
+    <string name="key_notifications_channel_name">Jetpack Weather Notifications</string>
+    <string name="key_weather_notifications_label">Weather notifications</string>
+    <string name="key_warning_label">Warning</string>
+    <string name="key_location_permission_approval_message">You must enable location permission in order to see your current weather info.</string>
+    <string name="key_update_location_label">Update location</string>
+    <string name="key_alerts_label">Alerts</string>
+    <string name="key_instructions_label">Instructions</string>
+    <string name="key_more_label">More</string>
+    <string name="key_less_label">Less</string>
+    <string name="key_effective_with_value_label">Effective: %s</string>
+    <string name="key_expires_with_value_label">Expires: %s</string>
+    <string name="key_air_quality_label">Air Quality</string>
+    <string-array name="key_air_quality_data_array">
+        <item>Carbon Monoxide (μg/m3)</item>
+        <item>Ozone (μg/m3)</item>
+        <item>Nitrogen dioxide (μg/m3)</item>
+        <item>Sulphur dioxide (μg/m3)</item>
+    </string-array>
+    <string-array name="key_air_quality_us_epa_index_array">
+        <item>Good</item>
+        <item>Moderate</item>
+        <item>Unhealthy for sensitive group</item>
+        <item>Unhealthy</item>
+        <item>Very Unhealthy</item>
+        <item>Hazardous</item>
+    </string-array>
+    <string name="key_invalid_location_message">Invalid location</string>
+    <string name="key_loading_label">Loading…</string>
+    <string name="key_widget_preview_location_label">CA 94043, USA</string>
+    <string name="key_widget_preview_date_time_label">Last Updated\nTue, 20 Sep 2022 01:45</string>
+    <string name="key_widget_preview_temperature_label">20°C</string>
+    <string name="key_widget_preview_condition_label">Partly cloudy</string>
+    <string name="key_widget_preview_feels_like_temperature_label">Feels like 19°C</string>
+    <string name="key_widget_preview_wind_speed_label">3</string>
+    <string name="key_widget_preview_kilometers_by_hour_label">km/h</string>
+    <string name="key_widget_preview_wind_state_label">Light</string>
+    <string name="key_widget_preview_wind_direction_label">Now • From North</string>
+    <string name="key_update_label">Update</string>
+    <string name="key_language_label">Language</string>
+    <string-array name="key_languages_array">
+        <item>English</item>
+        <item>Greek</item>
+    </string-array>
 </resources>
