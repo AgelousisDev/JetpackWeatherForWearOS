@@ -72,7 +72,7 @@ val Typography = Typography(
     ),
     caption1 = TextStyle(
         fontFamily = fonts,
-        fontWeight = FontWeight.Light,
+        fontWeight = FontWeight.Normal,
         fontSize= 14.sp
     ),
     caption2 = TextStyle(

@@ -8,7 +8,6 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.navigation.NavController
 import com.agelousis.jetpackweatherwearos.R
 import com.agelousis.jetpackweatherwearos.mapAddressPicker.model.AddressDataModel
 import com.agelousis.jetpackweatherwearos.network.repositories.SuccessBlock
@@ -88,7 +87,7 @@ class WeatherViewModel: ViewModel() {
     )
     val addressDataModelStateFlow = addressDataModelMutableStateFlow.asStateFlow()
 
-    private val weatherResponseMutableLiveData by lazy { MutableLiveData<WeatherResponseModel>() }
+    val weatherResponseMutableLiveData by lazy { MutableLiveData<WeatherResponseModel>() }
     val weatherResponseLiveData: LiveData<WeatherResponseModel>
         get() = weatherResponseMutableLiveData
 
@@ -149,7 +148,6 @@ class WeatherViewModel: ViewModel() {
 
     fun requestForecast(
         context: Context,
-        navController: NavController,
         location: String,
         days: Int,
         airQualityState: Boolean,
@@ -169,7 +167,6 @@ class WeatherViewModel: ViewModel() {
                 loaderStateMutableStateFlow.value = false
                 networkErrorMutableStateFlow.value = false
                 weatherResponseMutableLiveData.value = weatherResponseModel
-                this configureBottomNavigationItemsWith navController
                 //weatherUiAppBarTitle = weatherResponseModel.weatherLocationDataModel?.regionCountry
                 uiScope.launch {
                     preferencesStoreHelper setWeatherResponseModelData weatherResponseModel
@@ -192,26 +189,6 @@ class WeatherViewModel: ViewModel() {
                 //onOpenDialogClicked()
             }
         )
-    }
-
-    private infix fun configureBottomNavigationItemsWith(
-        navController: NavController
-    ) {
-        if (!weatherResponseLiveData.value?.weatherAlertsDataModel?.weatherAlertsModelList.isNullOrEmpty()) {
-            if (WeatherNavigationScreen.Alerts !in bottomNavigationItems)
-                bottomNavigationItems.add(
-                    WeatherNavigationScreen.Alerts
-                )
-        }
-        else {
-            bottomNavigationItems.remove(
-                WeatherNavigationScreen.Alerts
-            )
-            if ((WeatherNavigationScreen fromRoute currentNavigationRoute) is WeatherNavigationScreen.Alerts)
-                navController.navigate(
-                    WeatherNavigationScreen.Today.route
-                )
-        }
     }
 
 }
